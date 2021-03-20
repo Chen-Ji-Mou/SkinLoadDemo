@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
 
         Button button = findViewById(R.id.button);
         button.setOnClickListener((v) -> {
-            SkinManager.getInstance().loadSkin("/storage/emulated/0/Android/data/com.tencent.mobileqq/Tencent/QQfile_recv/skin-debug(1).apk");
+            SkinManager.getInstance().loadSkin("/storage/emulated/0/Android/data/com.tencent.mobileqq/Tencent/QQfile_recv/skin-debug.apk");
         });
 
         Button button1 = findViewById(R.id.button2);
