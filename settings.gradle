@@ -1,3 +1,5 @@
+include ':skin'
+include ':skin'
 include ':skin_load_sdk'
 include ':app'
 rootProject.name = "SkinLoadDemo"
